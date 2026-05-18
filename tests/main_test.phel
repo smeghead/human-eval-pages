@@ -1,0 +1,7 @@
+(ns app\main-test
+  (:require phel\test :refer [deftest is])
+  (:require app\main :refer [greet]))
+
+(deftest test-greet
+  (is (= "Hello, Phel!" (greet "Phel")))
+  (is (= "Hello, Alice!" (greet "Alice"))))
