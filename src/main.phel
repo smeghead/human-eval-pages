@@ -1,5 +1,6 @@
 (ns app\main
-  (:require phel\string))
+  (:require phel\string)
+  (:require phel\json))
 
 (defn greet [name]
   (str "Hello, " name "!"))
@@ -25,17 +26,17 @@
   ))
     ))))
 
+(defn print-line [line]
+  (let [record (json/decode line)]
+    (print record)))
+
 (defn main []
-  (jsonl-gen)
-;;  (let [gz-path (format "%s/../data/HumanEval.jsonl.gz" (php/dirname *file*))
-;;        f (php/gzopen gz-path "rb")
-;;        ]
-;;    
-;;    (println (php/gzread f 100))
-;;    (php/gzclose f)
-    
-
-
-)
+  (let [lines (jsonl-gen)]
+    (loop [lines lines]
+      (if (empty? lines)
+        :end
+        (let [f (first lines)]
+          (print-line f)
+          (recur (rest lines)))))))
 
 (main)
