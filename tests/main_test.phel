@@ -1,7 +1,13 @@
 (ns app\main-test
   (:require phel\test :refer [deftest is])
-  (:require app\main :refer [greet]))
+  (:require app\main))
 
 (deftest test-greet
-  (is (= "Hello, Phel!" (greet "Phel")))
-  (is (= "Hello, Alice!" (greet "Alice"))))
+  (is (= "Hello, Phel!" (main/greet "Phel")))
+  (is (= "Hello, Alice!" (main/greet "Alice"))))
+
+
+(deftest test-jsonl-generator
+  (let [lines (main/jsonl-gen)]
+    (is (= 164 (count lines))))
+)

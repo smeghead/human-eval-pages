@@ -1,9 +1,41 @@
-(ns app\main)
+(ns app\main
+  (:require phel\string))
 
 (defn greet [name]
   (str "Hello, " name "!"))
 
+(def *gz-path* (format "%s/../data/HumanEval.jsonl.gz" (php/dirname *file*)))
+
+(defn jsonl-gen []
+  (let [f (php/gzopen *gz-path* "r")]
+    (loop [lines []
+           acc ""]
+      (if (php/gzeof f)
+        (do
+          (php/gzclose f)
+          lines)
+        (let [read (php/gzread f 4096)
+              read (str acc read)
+              splited (php->phel (php/explode "\n" read))
+              len (count splited)]
+          (case len
+            0 lines
+            1 (recur lines (last splited))
+            (recur (concat lines (pop splited)) (last splited))
+  ))
+    ))))
+
 (defn main []
-  (println (greet "Phel")))
+  (jsonl-gen)
+;;  (let [gz-path (format "%s/../data/HumanEval.jsonl.gz" (php/dirname *file*))
+;;        f (php/gzopen gz-path "rb")
+;;        ]
+;;    
+;;    (println (php/gzread f 100))
+;;    (php/gzclose f)
+    
+
+
+)
 
 (main)
