@@ -22,16 +22,13 @@
           (case len
             0 lines
             1 (recur lines (last splited))
-            (recur (concat lines (pop splited)) (last splited))
-  ))
-    ))))
+            (recur (concat lines (pop splited)) (last splited))))))))
 
 (defn print-line [line]
   (let [record (json/decode line)]
     (print (format "# %s %s\n\n" (record :task_id) (record :entry_point)))
     (print (format "## Problem\n\n```\n%s\n```\n\n" (record :prompt)))
-    (print (format "## Test\n\n```\n%s\n```\n\n" (record :test)))
-))
+    (print (format "## Test\n\n```\n%s\n```\n\n" (record :test)))))
 
 (defn main []
   (let [lines (jsonl-gen)]
