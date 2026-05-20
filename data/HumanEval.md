@@ -1,8 +1,8 @@
-# HumanEval/0 has_close_elements
+## HumanEval/0 has_close_elements
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -17,9 +17,9 @@ def has_close_elements(numbers: List[float], threshold: float) -> bool:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -40,11 +40,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/1 separate_paren_groups
+## HumanEval/1 separate_paren_groups
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -59,9 +59,9 @@ def separate_paren_groups(paren_string: str) -> List[str]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -84,11 +84,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/2 truncate_number
+## HumanEval/2 truncate_number
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def truncate_number(number: float) -> float:
@@ -103,9 +103,9 @@ def truncate_number(number: float) -> float:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -121,11 +121,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/3 below_zero
+## HumanEval/3 below_zero
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -141,9 +141,9 @@ def below_zero(operations: List[int]) -> bool:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -162,11 +162,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/4 mean_absolute_deviation
+## HumanEval/4 mean_absolute_deviation
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -182,9 +182,9 @@ def mean_absolute_deviation(numbers: List[float]) -> float:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -201,11 +201,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/5 intersperse
+## HumanEval/5 intersperse
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -219,9 +219,9 @@ def intersperse(numbers: List[int], delimeter: int) -> List[int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -237,11 +237,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/6 parse_nested_parens
+## HumanEval/6 parse_nested_parens
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -256,9 +256,9 @@ def parse_nested_parens(paren_string: str) -> List[int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -274,11 +274,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/7 filter_by_substring
+## HumanEval/7 filter_by_substring
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -292,9 +292,9 @@ def filter_by_substring(strings: List[str], substring: str) -> List[str]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -311,11 +311,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/8 sum_product
+## HumanEval/8 sum_product
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List, Tuple
 
 
@@ -330,9 +330,9 @@ def sum_product(numbers: List[int]) -> Tuple[int, int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -350,11 +350,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/9 rolling_max
+## HumanEval/9 rolling_max
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List, Tuple
 
 
@@ -367,9 +367,9 @@ def rolling_max(numbers: List[int]) -> List[int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -386,11 +386,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/10 make_palindrome
+## HumanEval/10 make_palindrome
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def is_palindrome(string: str) -> bool:
@@ -413,9 +413,9 @@ def make_palindrome(string: str) -> str:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -433,11 +433,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/11 string_xor
+## HumanEval/11 string_xor
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -450,9 +450,9 @@ def string_xor(a: str, b: str) -> str:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -468,11 +468,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/12 longest
+## HumanEval/12 longest
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List, Optional
 
 
@@ -489,9 +489,9 @@ def longest(strings: List[str]) -> Optional[str]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -507,11 +507,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/13 greatest_common_divisor
+## HumanEval/13 greatest_common_divisor
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def greatest_common_divisor(a: int, b: int) -> int:
@@ -524,9 +524,9 @@ def greatest_common_divisor(a: int, b: int) -> int:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -543,11 +543,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/14 all_prefixes
+## HumanEval/14 all_prefixes
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -559,9 +559,9 @@ def all_prefixes(string: str) -> List[str]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -577,11 +577,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/15 string_sequence
+## HumanEval/15 string_sequence
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def string_sequence(n: int) -> str:
@@ -594,9 +594,9 @@ def string_sequence(n: int) -> str:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -612,11 +612,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/16 count_distinct_characters
+## HumanEval/16 count_distinct_characters
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def count_distinct_characters(string: str) -> int:
@@ -629,9 +629,9 @@ def count_distinct_characters(string: str) -> int:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -649,11 +649,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/17 parse_music
+## HumanEval/17 parse_music
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -673,9 +673,9 @@ def parse_music(music_string: str) -> List[int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -693,11 +693,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/18 how_many_times
+## HumanEval/18 how_many_times
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def how_many_times(string: str, substring: str) -> int:
@@ -712,9 +712,9 @@ def how_many_times(string: str, substring: str) -> int:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -731,11 +731,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/19 sort_numbers
+## HumanEval/19 sort_numbers
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -749,9 +749,9 @@ def sort_numbers(numbers: str) -> str:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -769,11 +769,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/20 find_closest_elements
+## HumanEval/20 find_closest_elements
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List, Tuple
 
 
@@ -788,9 +788,9 @@ def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -809,11 +809,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/21 rescale_to_unit
+## HumanEval/21 rescale_to_unit
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -826,9 +826,9 @@ def rescale_to_unit(numbers: List[float]) -> List[float]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -846,11 +846,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/22 filter_integers
+## HumanEval/22 filter_integers
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List, Any
 
 
@@ -864,9 +864,9 @@ def filter_integers(values: List[Any]) -> List[int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -882,11 +882,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/23 strlen
+## HumanEval/23 strlen
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def strlen(string: str) -> int:
@@ -899,9 +899,9 @@ def strlen(string: str) -> int:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -917,11 +917,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/24 largest_divisor
+## HumanEval/24 largest_divisor
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def largest_divisor(n: int) -> int:
@@ -932,9 +932,9 @@ def largest_divisor(n: int) -> int:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -952,11 +952,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/25 factorize
+## HumanEval/25 factorize
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -974,9 +974,9 @@ def factorize(n: int) -> List[int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -997,11 +997,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/26 remove_duplicates
+## HumanEval/26 remove_duplicates
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -1014,9 +1014,9 @@ def remove_duplicates(numbers: List[int]) -> List[int]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -1032,11 +1032,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/27 flip_case
+## HumanEval/27 flip_case
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def flip_case(string: str) -> str:
@@ -1047,9 +1047,9 @@ def flip_case(string: str) -> str:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -1065,11 +1065,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/28 concatenate
+## HumanEval/28 concatenate
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -1083,9 +1083,9 @@ def concatenate(strings: List[str]) -> str:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -1101,11 +1101,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/29 filter_by_prefix
+## HumanEval/29 filter_by_prefix
 
-## Problem
+### Problem
 
-```
+```python
 from typing import List
 
 
@@ -1119,9 +1119,9 @@ def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {
@@ -1136,11 +1136,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/30 get_positive
+## HumanEval/30 get_positive
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def get_positive(l: list):
@@ -1153,9 +1153,9 @@ def get_positive(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1170,11 +1170,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/31 is_prime
+## HumanEval/31 is_prime
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def is_prime(n):
@@ -1197,9 +1197,9 @@ def is_prime(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1223,11 +1223,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/32 find_zero
+## HumanEval/32 find_zero
 
-## Problem
+### Problem
 
-```
+```python
 import math
 
 
@@ -1254,9 +1254,9 @@ def find_zero(xs: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1281,11 +1281,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/33 sort_third
+## HumanEval/33 sort_third
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def sort_third(l: list):
@@ -1300,9 +1300,9 @@ def sort_third(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1320,11 +1320,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/34 unique
+## HumanEval/34 unique
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def unique(l: list):
@@ -1335,9 +1335,9 @@ def unique(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1349,11 +1349,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/35 max_element
+## HumanEval/35 max_element
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def max_element(l: list):
@@ -1366,9 +1366,9 @@ def max_element(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1380,11 +1380,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/36 fizz_buzz
+## HumanEval/36 fizz_buzz
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def fizz_buzz(n: int):
@@ -1399,9 +1399,9 @@ def fizz_buzz(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1420,11 +1420,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/37 sort_even
+## HumanEval/37 sort_even
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def sort_even(l: list):
@@ -1439,9 +1439,9 @@ def sort_even(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1455,11 +1455,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/38 decode_cyclic
+## HumanEval/38 decode_cyclic
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def encode_cyclic(s: str):
@@ -1480,9 +1480,9 @@ def decode_cyclic(s: str):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1501,11 +1501,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/39 prime_fib
+## HumanEval/39 prime_fib
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def prime_fib(n: int):
@@ -1525,9 +1525,9 @@ def prime_fib(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1548,11 +1548,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/40 triples_sum_to_zero
+## HumanEval/40 triples_sum_to_zero
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def triples_sum_to_zero(l: list):
@@ -1575,9 +1575,9 @@ def triples_sum_to_zero(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1597,11 +1597,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/41 car_race_collision
+## HumanEval/41 car_race_collision
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def car_race_collision(n: int):
@@ -1619,9 +1619,9 @@ def car_race_collision(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1637,11 +1637,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/42 incr_list
+## HumanEval/42 incr_list
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def incr_list(l: list):
@@ -1654,9 +1654,9 @@ def incr_list(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1670,11 +1670,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/43 pairs_sum_to_zero
+## HumanEval/43 pairs_sum_to_zero
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def pairs_sum_to_zero(l):
@@ -1696,9 +1696,9 @@ def pairs_sum_to_zero(l):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1719,11 +1719,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/44 change_base
+## HumanEval/44 change_base
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def change_base(x: int, base: int):
@@ -1740,9 +1740,9 @@ def change_base(x: int, base: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1761,11 +1761,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/45 triangle_area
+## HumanEval/45 triangle_area
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def triangle_area(a, h):
@@ -1776,9 +1776,9 @@ def triangle_area(a, h):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1792,11 +1792,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/46 fib4
+## HumanEval/46 fib4
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def fib4(n: int):
@@ -1817,9 +1817,9 @@ def fib4(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1834,11 +1834,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/47 median
+## HumanEval/47 median
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def median(l: list):
@@ -1851,9 +1851,9 @@ def median(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1869,11 +1869,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/48 is_palindrome
+## HumanEval/48 is_palindrome
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def is_palindrome(text: str):
@@ -1891,9 +1891,9 @@ def is_palindrome(text: str):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1911,11 +1911,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/49 modp
+## HumanEval/49 modp
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def modp(n: int, p: int):
@@ -1934,9 +1934,9 @@ def modp(n: int, p: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1954,11 +1954,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/50 decode_shift
+## HumanEval/50 decode_shift
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def encode_shift(s: str):
@@ -1975,9 +1975,9 @@ def decode_shift(s: str):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -1997,11 +1997,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/51 remove_vowels
+## HumanEval/51 remove_vowels
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def remove_vowels(text):
@@ -2023,9 +2023,9 @@ def remove_vowels(text):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2043,11 +2043,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/52 below_threshold
+## HumanEval/52 below_threshold
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def below_threshold(l: list, t: int):
@@ -2060,9 +2060,9 @@ def below_threshold(l: list, t: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2079,11 +2079,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/53 add
+## HumanEval/53 add
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def add(x: int, y: int):
@@ -2096,9 +2096,9 @@ def add(x: int, y: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2120,11 +2120,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/54 same_chars
+## HumanEval/54 same_chars
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def same_chars(s0: str, s1: str):
@@ -2146,9 +2146,9 @@ def same_chars(s0: str, s1: str):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2166,11 +2166,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/55 fib
+## HumanEval/55 fib
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def fib(n: int):
@@ -2185,9 +2185,9 @@ def fib(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2203,11 +2203,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/56 correct_bracketing
+## HumanEval/56 correct_bracketing
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def correct_bracketing(brackets: str):
@@ -2226,9 +2226,9 @@ def correct_bracketing(brackets: str):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2251,11 +2251,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/57 monotonic
+## HumanEval/57 monotonic
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def monotonic(l: list):
@@ -2270,9 +2270,9 @@ def monotonic(l: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2291,11 +2291,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/58 common
+## HumanEval/58 common
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def common(l1: list, l2: list):
@@ -2309,9 +2309,9 @@ def common(l1: list, l2: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2326,11 +2326,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/59 largest_prime_factor
+## HumanEval/59 largest_prime_factor
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def largest_prime_factor(n: int):
@@ -2343,9 +2343,9 @@ def largest_prime_factor(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2361,11 +2361,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/60 sum_to_n
+## HumanEval/60 sum_to_n
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def sum_to_n(n: int):
@@ -2384,9 +2384,9 @@ def sum_to_n(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2402,11 +2402,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/61 correct_bracketing
+## HumanEval/61 correct_bracketing
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def correct_bracketing(brackets: str):
@@ -2425,9 +2425,9 @@ def correct_bracketing(brackets: str):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2450,11 +2450,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/62 derivative
+## HumanEval/62 derivative
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def derivative(xs: list):
@@ -2469,9 +2469,9 @@ def derivative(xs: list):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2487,11 +2487,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/63 fibfib
+## HumanEval/63 fibfib
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def fibfib(n: int):
@@ -2511,9 +2511,9 @@ def fibfib(n: int):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 
 
 METADATA = {}
@@ -2531,11 +2531,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/64 vowels_count
+## HumanEval/64 vowels_count
 
-## Problem
+### Problem
 
-```
+```python
 
 FIX = """
 Add more test cases.
@@ -2556,9 +2556,9 @@ def vowels_count(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2576,11 +2576,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/65 circular_shift
+## HumanEval/65 circular_shift
 
-## Problem
+### Problem
 
-```
+```python
 
 def circular_shift(x, shift):
     """Circular shift the digits of the integer x, shift the digits right by shift
@@ -2594,9 +2594,9 @@ def circular_shift(x, shift):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2611,11 +2611,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/66 digitSum
+## HumanEval/66 digitSum
 
-## Problem
+### Problem
 
-```
+```python
 
 def digitSum(s):
     """Task
@@ -2633,9 +2633,9 @@ def digitSum(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2655,11 +2655,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/67 fruit_distribution
+## HumanEval/67 fruit_distribution
 
-## Problem
+### Problem
 
-```
+```python
 
 def fruit_distribution(s,n):
     """
@@ -2677,9 +2677,9 @@ def fruit_distribution(s,n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2693,11 +2693,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/68 pluck
+## HumanEval/68 pluck
 
-## Problem
+### Problem
 
-```
+```python
 
 def pluck(arr):
     """
@@ -2736,9 +2736,9 @@ def pluck(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2758,11 +2758,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/69 search
+## HumanEval/69 search
 
-## Problem
+### Problem
 
-```
+```python
 
 def search(lst):
     '''
@@ -2778,9 +2778,9 @@ def search(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # manually generated tests
@@ -2815,11 +2815,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/70 strange_sort_list
+## HumanEval/70 strange_sort_list
 
-## Problem
+### Problem
 
-```
+```python
 
 def strange_sort_list(lst):
     '''
@@ -2835,9 +2835,9 @@ def strange_sort_list(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2857,11 +2857,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/71 triangle_area
+## HumanEval/71 triangle_area
 
-## Problem
+### Problem
 
-```
+```python
 
 def triangle_area(a, b, c):
     '''
@@ -2877,9 +2877,9 @@ def triangle_area(a, b, c):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2898,11 +2898,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/72 will_it_fly
+## HumanEval/72 will_it_fly
 
-## Problem
+### Problem
 
-```
+```python
 
 def will_it_fly(q,w):
     '''
@@ -2925,9 +2925,9 @@ def will_it_fly(q,w):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2944,11 +2944,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/73 smallest_change
+## HumanEval/73 smallest_change
 
-## Problem
+### Problem
 
-```
+```python
 
 def smallest_change(arr):
     """
@@ -2964,9 +2964,9 @@ def smallest_change(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -2984,11 +2984,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/74 total_match
+## HumanEval/74 total_match
 
-## Problem
+### Problem
 
-```
+```python
 
 def total_match(lst1, lst2):
     '''
@@ -3007,9 +3007,9 @@ def total_match(lst1, lst2):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3031,11 +3031,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/75 is_multiply_prime
+## HumanEval/75 is_multiply_prime
 
-## Problem
+### Problem
 
-```
+```python
 
 def is_multiply_prime(a):
     """Write a function that returns true if the given number is the multiplication of 3 prime numbers
@@ -3048,9 +3048,9 @@ def is_multiply_prime(a):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     assert candidate(5) == False
@@ -3067,11 +3067,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/76 is_simple_power
+## HumanEval/76 is_simple_power
 
-## Problem
+### Problem
 
-```
+```python
 
 def is_simple_power(x, n):
     """Your task is to write a function that returns true if a number x is a simple
@@ -3088,9 +3088,9 @@ def is_simple_power(x, n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3110,11 +3110,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/77 iscube
+## HumanEval/77 iscube
 
-## Problem
+### Problem
 
-```
+```python
 
 def iscube(a):
     '''
@@ -3132,9 +3132,9 @@ def iscube(a):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3153,11 +3153,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/78 hex_key
+## HumanEval/78 hex_key
 
-## Problem
+### Problem
 
-```
+```python
 
 def hex_key(num):
     """You have been tasked to write a function that receives 
@@ -3180,9 +3180,9 @@ def hex_key(num):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3200,11 +3200,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/79 decimal_to_binary
+## HumanEval/79 decimal_to_binary
 
-## Problem
+### Problem
 
-```
+```python
 
 def decimal_to_binary(decimal):
     """You will be given a number in decimal form and your task is to convert it to
@@ -3221,9 +3221,9 @@ def decimal_to_binary(decimal):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3238,11 +3238,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/80 is_happy
+## HumanEval/80 is_happy
 
-## Problem
+### Problem
 
-```
+```python
 
 def is_happy(s):
     """You are given a string s.
@@ -3259,9 +3259,9 @@ def is_happy(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3276,11 +3276,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/81 numerical_letter_grade
+## HumanEval/81 numerical_letter_grade
 
-## Problem
+### Problem
 
-```
+```python
 
 def numerical_letter_grade(grades):
     """It is the last week of the semester and the teacher has to give the grades
@@ -3310,9 +3310,9 @@ def numerical_letter_grade(grades):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3329,11 +3329,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/82 prime_length
+## HumanEval/82 prime_length
 
-## Problem
+### Problem
 
-```
+```python
 
 def prime_length(string):
     """Write a function that takes a string and returns True if the string
@@ -3347,9 +3347,9 @@ def prime_length(string):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3375,11 +3375,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/83 starts_one_ends
+## HumanEval/83 starts_one_ends
 
-## Problem
+### Problem
 
-```
+```python
 
 def starts_one_ends(n):
     """
@@ -3389,9 +3389,9 @@ def starts_one_ends(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3408,11 +3408,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/84 solve
+## HumanEval/84 solve
 
-## Problem
+### Problem
 
-```
+```python
 
 def solve(N):
     """Given a positive integer N, return the total sum of its digits in binary.
@@ -3431,9 +3431,9 @@ def solve(N):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3450,11 +3450,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/85 add
+## HumanEval/85 add
 
-## Problem
+### Problem
 
-```
+```python
 
 def add(lst):
     """Given a non-empty list of integers lst. add the even elements that are at odd indices..
@@ -3466,9 +3466,9 @@ def add(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3482,11 +3482,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/86 anti_shuffle
+## HumanEval/86 anti_shuffle
 
-## Problem
+### Problem
 
-```
+```python
 
 def anti_shuffle(s):
     """
@@ -3504,9 +3504,9 @@ def anti_shuffle(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3523,11 +3523,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/87 get_row
+## HumanEval/87 get_row
 
-## Problem
+### Problem
 
-```
+```python
 
 def get_row(lst, x):
     """
@@ -3552,9 +3552,9 @@ def get_row(lst, x):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3590,11 +3590,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/88 sort_array
+## HumanEval/88 sort_array
 
-## Problem
+### Problem
 
-```
+```python
 
 def sort_array(array):
     """
@@ -3614,9 +3614,9 @@ def sort_array(array):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3635,11 +3635,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/89 encrypt
+## HumanEval/89 encrypt
 
-## Problem
+### Problem
 
-```
+```python
 
 def encrypt(s):
     """Create a function encrypt that takes a string as an argument and
@@ -3655,9 +3655,9 @@ def encrypt(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3676,11 +3676,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/90 next_smallest
+## HumanEval/90 next_smallest
 
-## Problem
+### Problem
 
-```
+```python
 
 def next_smallest(lst):
     """
@@ -3696,9 +3696,9 @@ def next_smallest(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3716,11 +3716,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/91 is_bored
+## HumanEval/91 is_bored
 
-## Problem
+### Problem
 
-```
+```python
 
 def is_bored(S):
     """
@@ -3737,9 +3737,9 @@ def is_bored(S):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3756,11 +3756,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/92 any_int
+## HumanEval/92 any_int
 
-## Problem
+### Problem
 
-```
+```python
 
 def any_int(x, y, z):
     '''
@@ -3783,9 +3783,9 @@ def any_int(x, y, z):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3805,11 +3805,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/93 encode
+## HumanEval/93 encode
 
-## Problem
+### Problem
 
-```
+```python
 
 def encode(message):
     """
@@ -3828,9 +3828,9 @@ def encode(message):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3845,11 +3845,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/94 skjkasdkd
+## HumanEval/94 skjkasdkd
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def skjkasdkd(lst):
@@ -3867,9 +3867,9 @@ def skjkasdkd(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3896,11 +3896,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/95 check_dict_case
+## HumanEval/95 check_dict_case
 
-## Problem
+### Problem
 
-```
+```python
 
 def check_dict_case(dict):
     """
@@ -3917,9 +3917,9 @@ def check_dict_case(dict):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -3937,11 +3937,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/96 count_up_to
+## HumanEval/96 count_up_to
 
-## Problem
+### Problem
 
-```
+```python
 
 def count_up_to(n):
     """Implement a function that takes an non-negative integer and returns an array of the first n
@@ -3957,9 +3957,9 @@ def count_up_to(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     assert candidate(5) == [2,3]
@@ -3976,11 +3976,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/97 multiply
+## HumanEval/97 multiply
 
-## Problem
+### Problem
 
-```
+```python
 
 def multiply(a, b):
     """Complete the function that takes two integers and returns 
@@ -3995,9 +3995,9 @@ def multiply(a, b):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4016,11 +4016,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/98 count_upper
+## HumanEval/98 count_upper
 
-## Problem
+### Problem
 
-```
+```python
 
 def count_upper(s):
     """
@@ -4034,9 +4034,9 @@ def count_upper(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4054,11 +4054,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/99 closest_integer
+## HumanEval/99 closest_integer
 
-## Problem
+### Problem
 
-```
+```python
 
 def closest_integer(value):
     '''
@@ -4081,9 +4081,9 @@ def closest_integer(value):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4098,11 +4098,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/100 make_a_pile
+## HumanEval/100 make_a_pile
 
-## Problem
+### Problem
 
-```
+```python
 
 def make_a_pile(n):
     """
@@ -4121,9 +4121,9 @@ def make_a_pile(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4139,11 +4139,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/101 words_string
+## HumanEval/101 words_string
 
-## Problem
+### Problem
 
-```
+```python
 
 def words_string(s):
     """
@@ -4157,9 +4157,9 @@ def words_string(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4177,11 +4177,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/102 choose_num
+## HumanEval/102 choose_num
 
-## Problem
+### Problem
 
-```
+```python
 
 def choose_num(x, y):
     """This function takes two positive numbers x and y and returns the
@@ -4195,9 +4195,9 @@ def choose_num(x, y):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4215,11 +4215,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/103 rounded_avg
+## HumanEval/103 rounded_avg
 
-## Problem
+### Problem
 
-```
+```python
 
 def rounded_avg(n, m):
     """You are given two positive integers n and m, and your task is to compute the
@@ -4235,9 +4235,9 @@ def rounded_avg(n, m):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4260,11 +4260,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/104 unique_digits
+## HumanEval/104 unique_digits
 
-## Problem
+### Problem
 
-```
+```python
 
 def unique_digits(x):
     """Given a list of positive integers x. return a sorted list of all 
@@ -4281,9 +4281,9 @@ def unique_digits(x):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4298,11 +4298,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/105 by_length
+## HumanEval/105 by_length
 
-## Problem
+### Problem
 
-```
+```python
 
 def by_length(arr):
     """
@@ -4329,9 +4329,9 @@ def by_length(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4348,11 +4348,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/106 f
+## HumanEval/106 f
 
-## Problem
+### Problem
 
-```
+```python
 
 def f(n):
     """ Implement the function f that takes n as a parameter,
@@ -4366,9 +4366,9 @@ def f(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     assert candidate(5) == [1, 2, 6, 24, 15]
@@ -4378,11 +4378,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/107 even_odd_palindrome
+## HumanEval/107 even_odd_palindrome
 
-## Problem
+### Problem
 
-```
+```python
 
 def even_odd_palindrome(n):
     """
@@ -4410,9 +4410,9 @@ def even_odd_palindrome(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4430,11 +4430,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/108 count_nums
+## HumanEval/108 count_nums
 
-## Problem
+### Problem
 
-```
+```python
 
 def count_nums(arr):
     """
@@ -4449,9 +4449,9 @@ def count_nums(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4470,11 +4470,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/109 move_one_ball
+## HumanEval/109 move_one_ball
 
-## Problem
+### Problem
 
-```
+```python
 
 def move_one_ball(arr):
     """We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
@@ -4506,9 +4506,9 @@ def move_one_ball(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4521,11 +4521,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/110 exchange
+## HumanEval/110 exchange
 
-## Problem
+### Problem
 
-```
+```python
 
 def exchange(lst1, lst2):
     """In this problem, you will implement a function that takes two lists of numbers,
@@ -4543,9 +4543,9 @@ def exchange(lst1, lst2):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4562,11 +4562,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/111 histogram
+## HumanEval/111 histogram
 
-## Problem
+### Problem
 
-```
+```python
 
 def histogram(test):
     """Given a string representing a space separated lowercase letters, return a dictionary
@@ -4584,9 +4584,9 @@ def histogram(test):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4605,11 +4605,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/112 reverse_delete
+## HumanEval/112 reverse_delete
 
-## Problem
+### Problem
 
-```
+```python
 
 def reverse_delete(s,c):
     """Task
@@ -4625,9 +4625,9 @@ def reverse_delete(s,c):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     assert candidate("abcde","ae") == ('bcd',False)
@@ -4642,11 +4642,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/113 odd_count
+## HumanEval/113 odd_count
 
-## Problem
+### Problem
 
-```
+```python
 
 def odd_count(lst):
     """Given a list of strings, where each string consists of only digits, return a list.
@@ -4663,9 +4663,9 @@ def odd_count(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4683,11 +4683,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/114 minSubArraySum
+## HumanEval/114 minSubArraySum
 
-## Problem
+### Problem
 
-```
+```python
 
 def minSubArraySum(nums):
     """
@@ -4700,9 +4700,9 @@ def minSubArraySum(nums):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4723,11 +4723,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/115 max_fill
+## HumanEval/115 max_fill
 
-## Problem
+### Problem
 
-```
+```python
 
 def max_fill(grid, capacity):
     import math
@@ -4767,9 +4767,9 @@ def max_fill(grid, capacity):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
 
@@ -4787,11 +4787,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/116 sort_array
+## HumanEval/116 sort_array
 
-## Problem
+### Problem
 
-```
+```python
 
 def sort_array(arr):
     """
@@ -4807,9 +4807,9 @@ def sort_array(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4829,11 +4829,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/117 select_words
+## HumanEval/117 select_words
 
-## Problem
+### Problem
 
-```
+```python
 
 def select_words(s, n):
     """Given a string s and a natural number n, you have been tasked to implement 
@@ -4851,9 +4851,9 @@ def select_words(s, n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4871,11 +4871,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/118 get_closest_vowel
+## HumanEval/118 get_closest_vowel
 
-## Problem
+### Problem
 
-```
+```python
 
 def get_closest_vowel(word):
     """You are given a word. Your task is to find the closest vowel that stands between 
@@ -4895,9 +4895,9 @@ def get_closest_vowel(word):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4921,11 +4921,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/119 match_parens
+## HumanEval/119 match_parens
 
-## Problem
+### Problem
 
-```
+```python
 
 def match_parens(lst):
     '''
@@ -4945,9 +4945,9 @@ def match_parens(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -4970,11 +4970,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/120 maximum
+## HumanEval/120 maximum
 
-## Problem
+### Problem
 
-```
+```python
 
 def maximum(arr, k):
     """
@@ -5004,9 +5004,9 @@ def maximum(arr, k):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5027,11 +5027,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/121 solution
+## HumanEval/121 solution
 
-## Problem
+### Problem
 
-```
+```python
 
 def solution(lst):
     """Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.
@@ -5045,9 +5045,9 @@ def solution(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5064,11 +5064,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/122 add_elements
+## HumanEval/122 add_elements
 
-## Problem
+### Problem
 
-```
+```python
 
 def add_elements(arr, k):
     """
@@ -5087,9 +5087,9 @@ def add_elements(arr, k):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5104,11 +5104,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/123 get_odd_collatz
+## HumanEval/123 get_odd_collatz
 
-## Problem
+### Problem
 
-```
+```python
 
 def get_odd_collatz(n):
     """
@@ -5130,9 +5130,9 @@ def get_odd_collatz(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5146,11 +5146,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/124 valid_date
+## HumanEval/124 valid_date
 
-## Problem
+### Problem
 
-```
+```python
 
 def valid_date(date):
     """You have to write a function which validates a given date string and
@@ -5175,9 +5175,9 @@ def valid_date(date):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5215,11 +5215,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/125 split_words
+## HumanEval/125 split_words
 
-## Problem
+### Problem
 
-```
+```python
 
 def split_words(txt):
     '''
@@ -5234,9 +5234,9 @@ def split_words(txt):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     assert candidate("Hello world!") == ["Hello","world!"]
@@ -5250,11 +5250,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/126 is_sorted
+## HumanEval/126 is_sorted
 
-## Problem
+### Problem
 
-```
+```python
 
 def is_sorted(lst):
     '''
@@ -5275,9 +5275,9 @@ def is_sorted(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5300,11 +5300,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/127 intersection
+## HumanEval/127 intersection
 
-## Problem
+### Problem
 
-```
+```python
 
 def intersection(interval1, interval2):
     """You are given two intervals,
@@ -5329,9 +5329,9 @@ def intersection(interval1, interval2):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5349,11 +5349,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/128 prod_signs
+## HumanEval/128 prod_signs
 
-## Problem
+### Problem
 
-```
+```python
 
 def prod_signs(arr):
     """
@@ -5370,9 +5370,9 @@ def prod_signs(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5392,11 +5392,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/129 minPath
+## HumanEval/129 minPath
 
-## Problem
+### Problem
 
-```
+```python
 
 def minPath(grid, k):
     """
@@ -5431,9 +5431,9 @@ def minPath(grid, k):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5455,11 +5455,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/130 tri
+## HumanEval/130 tri
 
-## Problem
+### Problem
 
-```
+```python
 
 def tri(n):
     """Everyone knows Fibonacci sequence, it was studied deeply by mathematicians in 
@@ -5481,9 +5481,9 @@ def tri(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5503,11 +5503,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/131 digits
+## HumanEval/131 digits
 
-## Problem
+### Problem
 
-```
+```python
 
 def digits(n):
     """Given a positive integer n, return the product of the odd digits.
@@ -5520,9 +5520,9 @@ def digits(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5539,11 +5539,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/132 is_nested
+## HumanEval/132 is_nested
 
-## Problem
+### Problem
 
-```
+```python
 
 def is_nested(string):
     '''
@@ -5561,9 +5561,9 @@ def is_nested(string):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5587,11 +5587,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/133 sum_squares
+## HumanEval/133 sum_squares
 
-## Problem
+### Problem
 
-```
+```python
 
 
 def sum_squares(lst):
@@ -5610,9 +5610,9 @@ def sum_squares(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5636,11 +5636,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/134 check_if_last_char_is_a_letter
+## HumanEval/134 check_if_last_char_is_a_letter
 
-## Problem
+### Problem
 
-```
+```python
 
 def check_if_last_char_is_a_letter(txt):
     '''
@@ -5658,9 +5658,9 @@ def check_if_last_char_is_a_letter(txt):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5681,11 +5681,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/135 can_arrange
+## HumanEval/135 can_arrange
 
-## Problem
+### Problem
 
-```
+```python
 
 def can_arrange(arr):
     """Create a function which returns the largest index of an element which
@@ -5700,9 +5700,9 @@ def can_arrange(arr):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5717,11 +5717,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/136 largest_smallest_integers
+## HumanEval/136 largest_smallest_integers
 
-## Problem
+### Problem
 
-```
+```python
 
 def largest_smallest_integers(lst):
     '''
@@ -5738,9 +5738,9 @@ def largest_smallest_integers(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5761,11 +5761,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/137 compare_one
+## HumanEval/137 compare_one
 
-## Problem
+### Problem
 
-```
+```python
 
 def compare_one(a, b):
     """
@@ -5782,9 +5782,9 @@ def compare_one(a, b):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5803,11 +5803,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/138 is_equal_to_sum_even
+## HumanEval/138 is_equal_to_sum_even
 
-## Problem
+### Problem
 
-```
+```python
 
 def is_equal_to_sum_even(n):
     """Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
@@ -5819,9 +5819,9 @@ def is_equal_to_sum_even(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
     assert candidate(4) == False
     assert candidate(6) == False
@@ -5834,11 +5834,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/139 special_factorial
+## HumanEval/139 special_factorial
 
-## Problem
+### Problem
 
-```
+```python
 
 def special_factorial(n):
     """The Brazilian factorial is defined as:
@@ -5855,9 +5855,9 @@ def special_factorial(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5871,11 +5871,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/140 fix_spaces
+## HumanEval/140 fix_spaces
 
-## Problem
+### Problem
 
-```
+```python
 
 def fix_spaces(text):
     """
@@ -5891,9 +5891,9 @@ def fix_spaces(text):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5908,11 +5908,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/141 file_name_check
+## HumanEval/141 file_name_check
 
-## Problem
+### Problem
 
-```
+```python
 
 def file_name_check(file_name):
     """Create a function which takes a string representing a file's name, and returns
@@ -5931,9 +5931,9 @@ def file_name_check(file_name):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -5971,11 +5971,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/142 sum_squares
+## HumanEval/142 sum_squares
 
-## Problem
+### Problem
 
-```
+```python
 
 
 
@@ -5993,9 +5993,9 @@ def sum_squares(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6017,11 +6017,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/143 words_in_sentence
+## HumanEval/143 words_in_sentence
 
-## Problem
+### Problem
 
-```
+```python
 
 def words_in_sentence(sentence):
     """
@@ -6046,9 +6046,9 @@ def words_in_sentence(sentence):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6065,11 +6065,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/144 simplify
+## HumanEval/144 simplify
 
-## Problem
+### Problem
 
-```
+```python
 
 def simplify(x, n):
     """Your task is to implement a function that will simplify the expression
@@ -6086,9 +6086,9 @@ def simplify(x, n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6112,11 +6112,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/145 order_by_points
+## HumanEval/145 order_by_points
 
-## Problem
+### Problem
 
-```
+```python
 
 def order_by_points(nums):
     """
@@ -6132,9 +6132,9 @@ def order_by_points(nums):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6151,11 +6151,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/146 specialFilter
+## HumanEval/146 specialFilter
 
-## Problem
+### Problem
 
-```
+```python
 
 def specialFilter(nums):
     """Write a function that takes an array of numbers as input and returns 
@@ -6168,9 +6168,9 @@ def specialFilter(nums):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6188,11 +6188,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/147 get_max_triples
+## HumanEval/147 get_max_triples
 
-## Problem
+### Problem
 
-```
+```python
 
 def get_max_triples(n):
     """
@@ -6211,9 +6211,9 @@ def get_max_triples(n):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     assert candidate(5) == 1
@@ -6223,11 +6223,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/148 bf
+## HumanEval/148 bf
 
-## Problem
+### Problem
 
-```
+```python
 
 def bf(planet1, planet2):
     '''
@@ -6248,9 +6248,9 @@ def bf(planet1, planet2):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6268,11 +6268,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/149 sorted_list_sum
+## HumanEval/149 sorted_list_sum
 
-## Problem
+### Problem
 
-```
+```python
 
 def sorted_list_sum(lst):
     """Write a function that accepts a list of strings as a parameter,
@@ -6292,9 +6292,9 @@ def sorted_list_sum(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6311,11 +6311,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/150 x_or_y
+## HumanEval/150 x_or_y
 
-## Problem
+### Problem
 
-```
+```python
 
 def x_or_y(n, x, y):
     """A simple program which should return the value of x if n is 
@@ -6329,9 +6329,9 @@ def x_or_y(n, x, y):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6352,11 +6352,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/151 double_the_difference
+## HumanEval/151 double_the_difference
 
-## Problem
+### Problem
 
-```
+```python
 
 def double_the_difference(lst):
     '''
@@ -6373,9 +6373,9 @@ def double_the_difference(lst):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6395,11 +6395,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/152 compare
+## HumanEval/152 compare
 
-## Problem
+### Problem
 
-```
+```python
 
 def compare(game,guess):
     """I think we all remember that feeling when the result of some long-awaited
@@ -6419,9 +6419,9 @@ def compare(game,guess):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6436,11 +6436,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/153 Strongest_Extension
+## HumanEval/153 Strongest_Extension
 
-## Problem
+### Problem
 
-```
+```python
 
 def Strongest_Extension(class_name, extensions):
     """You will be given the name of a class (a string) and a list of extensions.
@@ -6462,9 +6462,9 @@ def Strongest_Extension(class_name, extensions):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6483,11 +6483,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/154 cycpattern_check
+## HumanEval/154 cycpattern_check
 
-## Problem
+### Problem
 
-```
+```python
 
 def cycpattern_check(a , b):
     """You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word
@@ -6502,9 +6502,9 @@ def cycpattern_check(a , b):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6522,11 +6522,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/155 even_odd_count
+## HumanEval/155 even_odd_count
 
-## Problem
+### Problem
 
-```
+```python
 
 def even_odd_count(num):
     """Given an integer. return a tuple that has the number of even and odd digits respectively.
@@ -6538,9 +6538,9 @@ def even_odd_count(num):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6560,11 +6560,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/156 int_to_mini_roman
+## HumanEval/156 int_to_mini_roman
 
-## Problem
+### Problem
 
-```
+```python
 
 def int_to_mini_roman(number):
     """
@@ -6580,9 +6580,9 @@ def int_to_mini_roman(number):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6607,11 +6607,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/157 right_angle_triangle
+## HumanEval/157 right_angle_triangle
 
-## Problem
+### Problem
 
-```
+```python
 
 def right_angle_triangle(a, b, c):
     '''
@@ -6626,9 +6626,9 @@ def right_angle_triangle(a, b, c):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6649,11 +6649,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/158 find_max
+## HumanEval/158 find_max
 
-## Problem
+### Problem
 
-```
+```python
 
 def find_max(words):
     """Write a function that accepts a list of strings.
@@ -6668,9 +6668,9 @@ def find_max(words):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6690,11 +6690,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/159 eat
+## HumanEval/159 eat
 
-## Problem
+### Problem
 
-```
+```python
 
 def eat(number, need, remaining):
     """
@@ -6728,9 +6728,9 @@ def eat(number, need, remaining):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6748,11 +6748,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/160 do_algebra
+## HumanEval/160 do_algebra
 
-## Problem
+### Problem
 
-```
+```python
 
 def do_algebra(operator, operand):
     """
@@ -6782,9 +6782,9 @@ def do_algebra(operator, operand):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6798,11 +6798,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/161 solve
+## HumanEval/161 solve
 
-## Problem
+### Problem
 
-```
+```python
 
 def solve(s):
     """You are given a string s.
@@ -6818,9 +6818,9 @@ def solve(s):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6839,11 +6839,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/162 string_to_md5
+## HumanEval/162 string_to_md5
 
-## Problem
+### Problem
 
-```
+```python
 
 def string_to_md5(text):
     """
@@ -6855,9 +6855,9 @@ def string_to_md5(text):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
@@ -6872,11 +6872,11 @@ def check(candidate):
 
 ```
 
-# HumanEval/163 generate_integers
+## HumanEval/163 generate_integers
 
-## Problem
+### Problem
 
-```
+```python
 
 def generate_integers(a, b):
     """
@@ -6891,9 +6891,9 @@ def generate_integers(a, b):
 
 ```
 
-## Test
+### Test
 
-```
+```python
 def check(candidate):
 
     # Check some simple cases
